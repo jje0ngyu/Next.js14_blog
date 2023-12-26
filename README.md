@@ -6,7 +6,8 @@ First, run the development server:
 ```bash
 yarn dev
 ```
-
+## Library
+install react-multi-carousel --save
 ## Extensions
 
 Tailwind CSS IntelliSense
