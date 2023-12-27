@@ -6,6 +6,11 @@ export async function getFeaturedPosts(){
     .then((posts) => posts.filter((post) => post.featured));
 }
 
+export async function getNonFeaturedPosts(){
+  return getAllPosts()  //
+    .then((posts) => posts.filter((post) => !post.featured));
+}
+
 export async function getAllPosts(){
   const filePath = path.join(process.cwd(), 'data', 'posts.json');
   return readFile(filePath, 'utf-8')
