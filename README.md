@@ -8,6 +8,8 @@ yarn dev
 ```
 ## Library
 install react-multi-carousel --save
+URL : https://github.com/YIZHUANG/react-multi-carousel
+
 ## Extensions
 
 Tailwind CSS IntelliSense
