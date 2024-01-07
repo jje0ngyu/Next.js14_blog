@@ -10,6 +10,18 @@ yarn dev
 install react-multi-carousel --save
 URL : https://github.com/YIZHUANG/react-multi-carousel
 
+yarn add install react-markdown
+URL : https://github.com/remarkjs/react-markdown
+
+yar add install remark-gfm
+explain : adds support for footnotes, strikethrough, tables, tasklists and URLs directly
+
+yarn add -D @tailwindcss/typography
+URL : https://tailwindcss.com/docs/typography-plugin
+explain : 특정 리로스에 테일윈드CSS 적용되지 않도록 유지
+
+ yarn add react-icons
+
 ## Extensions
 
 Tailwind CSS IntelliSense
